@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         <servlet>
+         	<servlet-name>search</servlet-name>
+			<!-- <servlet-class>com.search.searchServlet</servlet-class> -->
+         	<servlet-class>com.oop.servlet.searchServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>search</servlet-name>
+         	<url-pattern>/sec</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>view</servlet-name>
+<!--          	<servlet-class>com.viewreview.viewReviewServlet</servlet-class> -->
+			<servlet-class>com.oop.servlet.viewReviewServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>view</servlet-name>
+         	<url-pattern>/vreview</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>getUsernames</servlet-name>
+         	<servlet-class>com.oop.servlet.getUsernamesServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>getUsernames</servlet-name>
+         	<url-pattern>/getUser</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>write</servlet-name>
+         	<servlet-class>com.oop.servlet.writeReviewServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>write</servlet-name>
+         	<url-pattern>/wreview</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>verify</servlet-name>
+         	<servlet-class>com.oop.servlet.verifyReviewUserServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>verify</servlet-name>
+         	<url-pattern>/newwreview</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>existing</servlet-name>
+         	<servlet-class>com.oop.servlet.existingReviewUserServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>existing</servlet-name>
+         	<url-pattern>/ewreview</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>delete</servlet-name>
+         	<servlet-class>com.oop.servlet.deleteReviewServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>delete</servlet-name>
+         	<url-pattern>/rdelete</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>edit</servlet-name>
+         	<servlet-class>com.oop.servlet.getUpdateReviewDetailsServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>edit</servlet-name>
+         	<url-pattern>/redit</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>update</servlet-name>
+         	<servlet-class>com.oop.servlet.updateReviewServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>update</servlet-name>
+         	<url-pattern>/ureview</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>toBooking</servlet-name>
+         	<servlet-class>com.oop.servlet.selectVehicleServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>toBooking</servlet-name>
+         	<url-pattern>/tobooking</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>new123</servlet-name>
+         	<servlet-class>com.oop.servlet.dummyServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>new123</servlet-name>
+         	<url-pattern>/dummy</url-pattern>
+         </servlet-mapping>
+         
+<!--          Thenuka -->
+         <servlet>
+            <servlet-name>full_bookingservlet</servlet-name>
+            <servlet-class>com.full_booking.full_bookingservlet</servlet-class>
+           
+         </servlet>
+          <servlet-mapping>
+              <servlet-name>full_bookingservlet</servlet-name>
+              <url-pattern>/insert</url-pattern>
+            </servlet-mapping>
+         
+         
+         <servlet>
+            <servlet-name>viewbooking</servlet-name>
+            <servlet-class>com.full_booking.viewServlet</servlet-class>
+           
+         </servlet>
+          
+          <servlet-mapping>
+              <servlet-name>viewbooking</servlet-name>
+              <url-pattern>/view</url-pattern>
+            </servlet-mapping>
+            
+            
+            
+            <servlet>
+            <servlet-name>updatebooking</servlet-name>
+            <servlet-class>com.full_booking.updateBookingServlet</servlet-class>
+           
+         </servlet>
+         
+           <servlet-mapping>
+              <servlet-name>updatebooking</servlet-name>
+              <url-pattern>/update</url-pattern>
+            </servlet-mapping>
+         
+         
+         <servlet>
+            <servlet-name>cancelbooking</servlet-name>
+            <servlet-class>com.full_booking.cancelBookingSevlet</servlet-class>
+           
+         </servlet>
+         
+          <servlet-mapping>
+              <servlet-name>cancelbooking</servlet-name>
+              <url-pattern>/cancel</url-pattern>
+            </servlet-mapping>
+         
+ </web-app>

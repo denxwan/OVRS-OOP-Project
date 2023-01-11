@@ -1,0 +1,196 @@
+body {
+    padding: 0;
+	margin:0;
+    --bs-body-bg: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(../images/background2.jpg);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    --bs-body-font-family: 'Yanone Kaffeesatz', sans-serif;
+	--bs-body-color: white;
+    --bs-body-font-weight: 400;
+    --bs-body-font-size: 25px;
+    
+}
+
+.new-123 {
+    margin-left: 100px;
+/*     background-color: red; */
+}
+
+.basic-btn {
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    background-color: rgb(255, 97, 39);
+    border-color: transparent;
+    color: white;
+    transition: 0.3s;
+}
+
+.basic-btn-2 {
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    background-color: white;
+    border-color: grey;
+    border-width: 2px;
+    border-style:solid;
+    color: white;
+    transition: 0.3s;
+    color: grey;
+}
+
+.basic-btn:hover {
+    background-color: black;
+    color: #ff6127;
+}
+
+.basic-btn.active {
+    background-color: black;
+    color: #ff6127;
+}
+
+.form-container {
+    /* display: flex;
+     justify-content: center; */
+    background-color: white;
+    color: black;
+    width: 90%;
+    height: auto;
+    padding: 35px;
+}
+
+.form-dropdown {
+    border-color: transparent;
+    width: 327px;
+    height: 40px;
+    border-bottom-color: #ff6127;
+    border-bottom-width: 5px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 25px;
+
+    /* position: relative;
+    left: -230px;
+    bottom: -40px; */
+}
+
+.form-dropdown-1 {
+    border-color: transparent;
+    width: 150px;
+    height: 40px;
+    border-bottom-color: #ff6127;
+    border-bottom-width: 5px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.form-buttons {
+    display: block;
+    justify-content: center;
+}
+
+.form-dynamic {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.form-dynamic-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 40px 25px 40px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title-1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.title-2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.title-3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.form-label {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.padding {
+    padding-right: 20px;
+}
+
+.overlay-1 {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgb(40, 40, 40);
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 100;
+}
+
+.popup-1 {
+    /* display: none; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgb(255, 255, 255);
+    color: black;
+    width: 800px;
+    height: 300px;
+    margin-left: -400px; /*Half the value of width to center div*/
+    margin-top: -150px; /*Half the value of height to center div*/
+    z-index: 200;
+}
+
+#popupclose {
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.popup-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: baseline;
+    padding: 20px;
+}
+
+.popup-container-2 {
+    width: 50%;
+}
+
+.hz-line {
+    height: auto;
+    width: 3px;
+    background-color: black;
+    margin :10px;
+}

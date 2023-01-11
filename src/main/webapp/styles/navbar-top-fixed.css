@@ -1,0 +1,17 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 6.5rem;
+}
+
+.navbar {
+  --bs-navbar-padding-y: 1.0rem;
+  --bs-navbar-brand-font-size: 2.5rem;
+  --bs-navbar-brand-font-style: bold;
+  --bs-navbar-brand-font-weight: 700;
+  --bs-navbar-light-active-color: rgba(250, 97, 39, 0.9);
+}
+
+.nav-link.active {
+  --bs-navbar-light-active-color: rgba(250, 97, 39, 0.9);
+}
