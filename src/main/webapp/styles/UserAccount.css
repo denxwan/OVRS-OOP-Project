@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url("../images/background2.jpg");
+	background-color: #000000;
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-color: #BA68C8
+}
+
+.profile-button {
+	background: #FF4200;
+	color: #000000;
+	box-shadow: none;
+	border: none;
+	float: left;
+}
+
+.profile-button:hover {
+	background: #000000;
+	color: #FF4200;
+}
+
+
+.profile-button:active {
+	background: #000000;
+	color: #FF4200;
+	box-shadow: none
+}
+
+#update {
+	margin: 0px 8px;
+}
+
+
+#delete {
+	background: #FF0000;
+	float: right;
+}
+
+#delete:hover {
+	background: #000000;
+	color: #FFF;
+}
+
+.back:hover {
+	color: #FF4200;
+	cursor: pointer
+}
+
+.labels {
+	font-size: 11px
+}

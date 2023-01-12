@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+.card-img-top{
+	width:70;
+	height: auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card {
+	margin-top: 10px;
+	color: #000000;
+}
+
+#continue {
+	background: #FF4200;
+	color: #000000;
+	box-shadow: none;
+	border: none;
+	float: left;
+	margin-left: -10px;
+}
+
+#continue:hover {
+	background: #000000;
+	color: #FF4200;
+}
+
+#continue:active {
+	background: #000000;
+	color: #FF4200;
+	box-shadow: none
+}
+
+#delete {
+	background: #FF0000;
+	float: right;
+}
+
+#delete:hover {
+	background: #000000;
+	color: #FFF;
+}
+
+
